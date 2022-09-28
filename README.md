@@ -234,7 +234,7 @@ pprint.pprint(test_dataset[0])
 
 ### Advanced usage
 
-For more advanced usages of the CAUEEG dataset and two corresponding benchmarks, refer to [this notebook](https://github.com/ipis-mjkim/caueeg-ceednet/notebook/01_DataSet_DataLoader.ipynb).
+For more advanced usages of the CAUEEG dataset and two corresponding benchmarks, refer to [this notebook](https://github.com/ipis-mjkim/caueeg-ceednet/blob/main/notebook/01_DataSet_DataLoader.ipynb).
 
 ---
 
