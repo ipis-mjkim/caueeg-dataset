@@ -232,6 +232,39 @@ print('\n', '-' * 100, '\n')
 pprint.pprint(test_dataset[0])
 ```
 
+If you want to load only the specified splits of the benchmark, here is the example:
+
+```python
+config, test_dataset = load_caueeg_task_split(dataset_path='local/dataset/caueeg-dataset/', 
+                                              task='abnormal', split='test', load_event=False)
+
+pprint.pprint(config_data)
+print('\n', '-' * 100, '\n')
+pprint.pprint(test_dataset[0])
+```
+
+```print
+{'class_label_to_name': ['Normal', 'Abnormal'],
+ 'class_name_to_label': {'Abnormal': 1, 'Normal': 0},
+ 'task_description': 'Classification of [Normal] and [Abnormal] symptoms',
+ 'task_name': 'CAUEEG-Abnormal benchmark'}
+
+ ---------------------------------------------------------------------------------------------------- 
+
+{'age': 57,
+ 'class_label': 0,
+ 'class_name': 'Normal',
+ 'serial': '00560',
+ 'signal': array([[  7.,  41.,  49., ...,   0.,   0.,   0.],
+       [ 23.,  26.,  27., ...,   0.,   0.,   0.],
+       [-16., -20., -18., ...,   0.,   0.,   0.],
+       ...,
+       [ 32.,  31.,  31., ...,   0.,   0.,   0.],
+       [177., 228., 142., ...,   0.,   0.,   0.],
+       [  0.,  -1.,   0., ...,   0.,   0.,   0.]]),
+ 'symptom': ['normal', 'cb_normal']}
+```
+
 ### Advanced usage
 
 For more advanced usages of the CAUEEG dataset and two corresponding benchmarks, refer to [this notebook](https://github.com/ipis-mjkim/caueeg-ceednet/blob/main/notebook/01_DataSet_DataLoader.ipynb).
