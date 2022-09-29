@@ -232,7 +232,7 @@ print('\n', '-' * 100, '\n')
 pprint.pprint(test_dataset[0])
 ```
 
-If you want to load only the specified splits of the benchmark, here is the example:
+If you want to specify the split and benchmark, here is the way:
 
 ```python
 config, test_dataset = load_caueeg_task_split(dataset_path='local/dataset/caueeg-dataset/', 
