@@ -2,7 +2,7 @@
 
 **CAUEEG**: **C**hung-**A**ng **U**niversity Hospital **EEG** dataset for automatic EEG diagnosis research
 
-This repository is the official page of the CAUEEG dataset presented in "Deep learning-based EEG analysis to classify mild cognitive impairment for early detection of dementia: algorithms and benchmarks."
+This repository is the official page of the CAUEEG dataset presented in "Deep learning-based EEG analysis to classify mild cognitive impairment for early detection of dementia: algorithms and benchmarks" from the CNIR (CAU NeuroImaging Research) team.
 
 ---
 
