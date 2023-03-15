@@ -50,7 +50,9 @@ caueeg-dataset
 - `caueeg-dataset/annotation.json`: Diagnostic annotation file for each EDF and event pair.
 - `caueeg-dataset/annotation.xlsx`: Excel version of `annotation.json` for visualization.
 - `caueeg-dataset/dementia.json`: Annotation file for the `CAUEEG-Dementia` benchmark.
+- `caueeg-dataset/dementia-no-overlap.json`: Annotation file for the `CAUEEG-Dementia` benchmark, excluded all patient-overlapping cases with training data from the test and validation sets.
 - `caueeg-dataset/abnormal.json`: Annotation file for the `CAUEEG-Abnormal` benchmark.
+- `caueeg-dataset/abnormal-no-overlap.json`: Annotation file for the `CAUEEG-Abnormal` benchmark, excluded all patient-overlapping cases with training data from the test and validation sets.
 - `caueeg-dataset/event/*.json`: Event descriptions during EEG recording.
 - `caueeg-dataset/signal/edf/*.edf`: EEG signals written in European data format (EDF).
 
