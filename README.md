@@ -234,7 +234,10 @@ print('\n', '-' * 100, '\n')
 pprint.pprint(test_dataset[0])
 ```
 
-If you want to specify the split and benchmark, here is the way:
+One can replace `task='dementia'` to `task='dementia-no-overlap'` or `task='abnormal'` to `task='abnormal-no-overlap'` if wanting to use the 'no-overlap' version, respectively.
+
+
+To specify the split and benchmark, here is the way:
 
 ```python
 config, test_dataset = load_caueeg_task_split(dataset_path='local/dataset/caueeg-dataset/', 
