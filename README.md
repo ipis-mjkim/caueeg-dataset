@@ -8,7 +8,7 @@ This repository is the official page of the CAUEEG dataset presented in "Deep le
 
 ## Detailed information
 
-An academic paper including all the detailed information will be upcoming soon.
+Please refer to the academic paper, "[Deep learning-based EEG analysis to classify mild cognitive impairment for early detection of dementia: algorithms and benchmarks](https://doi.org/10.1016/j.neuroimage.2023.120054)," for detailed information.
 
 ---
 
@@ -281,5 +281,11 @@ For more advanced usages of the CAUEEG dataset and two corresponding benchmarks,
 If you found this dataset helpful, please cite the paper below.
 
 ```bib
-An academic paper will be upcoming soon.
-```
+@article{kim2023deep,
+  title={Deep learning-based EEG analysis to classify normal, mild cognitive impairment, and dementia: algorithms and dataset},
+  author={Kim, Min-jae and Youn, Young Chul and Paik, Joonki},
+  journal={NeuroImage},
+  pages={120054},
+  year={2023},
+  publisher={Elsevier}
+}
